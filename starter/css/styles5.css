@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@media only screen and (min-width: 600px) 
+
 .btn {
   border: 1px;
   background-color: black;
@@ -35,16 +37,16 @@ h3 {
     display: flex;
     background-color: #edd5bd;
     color: black;
+    font-size: 25px;
 }
 
 h4 { 
    display: flex;
    flex-direction: row;
-   line-height: 1.5;
+   font-size: 20px;
    letter-spacing: .5px;
 
 }
-
 
 img {
     max-width: 100%;
@@ -55,6 +57,7 @@ img {
 
 .price {
   display: flex;
+  font-size: 16px;
   flex-direction: column;
   flex-wrap: wrap;
     
@@ -64,6 +67,3 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-
-
-
